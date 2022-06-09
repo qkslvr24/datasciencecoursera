@@ -1,0 +1,9 @@
+{
+	"name": "dataenginterviewadf",
+	"location": "centralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "4c162e2a-3204-485c-bfcd-c38a2e1ac1b1",
+		"tenantId": "43816816-6496-4583-b2ef-e9ce71856280"
+	}
+}
