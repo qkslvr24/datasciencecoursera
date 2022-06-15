@@ -29,12 +29,6 @@
 				},
 				"Date": {
 					"type": "integer"
-				},
-				"FirstName": {
-					"type": "string"
-				},
-				"Phone": {
-					"type": "integer"
 				}
 			}
 		}
