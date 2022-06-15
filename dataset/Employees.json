@@ -1,0 +1,42 @@
+{
+	"name": "Employees",
+	"properties": {
+		"description": "Files of Employees and attributes",
+		"linkedServiceName": {
+			"referenceName": "dataenginterviewadlsg2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "json",
+				"fileSystem": "dataenginterview"
+			}
+		},
+		"schema": {
+			"type": "object",
+			"properties": {
+				"Name": {
+					"type": "string"
+				},
+				"PhoneNumber": {
+					"type": "integer"
+				},
+				"ZipCode": {
+					"type": "string"
+				},
+				"Date": {
+					"type": "integer"
+				},
+				"FirstName": {
+					"type": "string"
+				},
+				"Phone": {
+					"type": "integer"
+				}
+			}
+		}
+	}
+}
